@@ -1,0 +1,19 @@
+CLEAR_RG ALL
+
+
+= 5, size
+[] arr, size,
+[arr + 0] = 12
+[arr + 1] = 23
+[arr + 2] = 1
+[arr + 3] = 17
+[arr + 4] = 0
+
+
+x, <- 		:) User input stored  in x
+i = 0
+LABEL start_loop
+
+
+CMP i, size
+JiGT end_loop
